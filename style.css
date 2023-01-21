@@ -1,29 +1,51 @@
 *{
     max-width: 100%;
 }
+body{
+    background-color: #FFF ;
+}
 .navbar{
     margin:20px 0 0 90px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     display: flex;
-    border: 1px solid #fff;
+    border: 1px solid #FFFFFF;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .saylanilogo img{
     max-height: 70px;
     max-width: 200%;
 
 }
-.navbar ol li{
+ol{
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+   
+}
+
+li:hover{
+   
+   color: #0d6db7;
+   transform: scale(1.1);
+    
+}
+/* .navbar ol li{
     list-style-type: none;
     display: inline-block;
     padding-right: 15px;
     color: #808080;
     margin-top: 5px;
-    font-size: 120%;
-}
+    font-size: 120%; */
+/* } */
 .navbar button{
-    background-color: #add8e6;
-    border: 1px solid #add8e6;
+    background-color: #0d6db7!important;
+    border: 1px solid #0d6db7!important;
     margin:10px 0 0 10px;
     height: 40px;
     width: 10%;
@@ -69,35 +91,54 @@
 }
 .help{
     display: flex;
-    margin: 30px 80px 0 80px;
-    justify-content:center;
-    border: 2px solid #ffffe0;
+    margin: 30px 80px 0 80px;  
+    align-items: center;
+    border: 2px solid rgba(182,239,73,.2);
     padding: 20px 0 30px 0;
     border-radius: 20px;
-    background-color: #ffffe0;
+    background-color: rgba(182,239,73,.2);
+    
+}
+.help h1{
+    margin-left: 20px;
+    width: 240px;
 }
 .help p{
-    color: #0000ff;
+    color: #0d6db7;
     font-family: sans-serif;
-    font-size: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.buttons{
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    padding: 20px;
 }
 .buttons button{
-    background-color: #808080;
+    background-color: #fff;
     border: 1px solid #fff;
     height: 50px;
-    width: 20%;
+    width: 17%;
     font-size: 100%;
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 25px;
-    color: #000;
+    color: black;
 }
 .buttons .button2{
-    width: 35%;
+    width: 25%;
 }
 .buttons .button3{
-    background-color: #90ee90;
+    background-color: #8dc63f;
+    color: #fff;
+}
+.buttons button:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    color: #FFF;
 }
 .image img{
     border: 2px double #ffffe0;
@@ -107,7 +148,7 @@
 }
 .heading{
     text-align: center;
-    background-color: #d3d3d3;
+    background-color: #FFF;
     padding: 10px;
     width: 85%;
     margin:20px 0 0 82px ;
@@ -140,7 +181,7 @@
     width: 60%;
     height: 350px;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 10px solid #8dc63f;
     cursor: pointer;
     border: 1px solid #fff;
 }
@@ -151,9 +192,10 @@
     padding-top: 200px; 
     cursor: pointer;
     color: #fff;
+    text-align: center;
 }
 .food button{
-    background-color: #90ee90;
+    background-color: #8dc63f;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -164,11 +206,11 @@
     margin-left: 15px;
 }
 .it{
-    background-image: url(./59669436-3c22-4b1e-a646-673851a14a34.jpg);
+    background-image: url(./cbcbd0d4-16a9-49f9-a36b-292431441967.jpg);
     width: 60%;
     height: 350px;
     padding: 0px 0 0 20px;
-    border-radius: 10px;
+    border-radius: 10px solid #8dc63f ;
     cursor: pointer;
     border: 1px solid #fff;
 }
@@ -179,9 +221,10 @@
     padding-top: 220px; 
     cursor: pointer;
     color: #fff;
+    text-align: center;
 }
 .it button{
-    background-color: #90ee90;
+    background-color: #8dc63f;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -192,7 +235,7 @@
     margin-left: 15px;
 }
 .needy{
-    background-image: url(./db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
+    background-image:url(./db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
     width: 58%;
     height: 350px;
     padding: 0px 0 0 20px;
@@ -207,12 +250,13 @@
     padding-top: 220px; 
     cursor: pointer;
     color: #fff;
+    text-align: center;
 }
 .needy button{
-    background-color: #90ee90;
+    background-color: #8dc63f;
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 10px  ;
     width: 90%;
     padding:15px 0;
     cursor:pointer;
@@ -248,6 +292,7 @@
 .hepatitis{
     display: flex;
     gap: 20px;
+    
 }
 .treatment{
     line-height: 1em;
@@ -310,10 +355,11 @@
     color: #808080;
 }
 .package{
+    background-image: url(	https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
     display: flex;
     justify-content: space-between;
     width: 80%;
-    background-color: #808080;
+    background-color: #0d6db7;
     margin: auto;
     padding: 30px 65px;
 }
@@ -322,34 +368,68 @@
     line-height: 1em;
     cursor: pointer;
 }
+.foods img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
 .family{
     text-align: center;
     line-height: 1em;
     cursor: pointer;
+}
+.family img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
 }
 .give{
     text-align: center;
     line-height: 1em;
     cursor: pointer;
 }
+.give img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
 .caring{
     text-align: center;
     line-height: 1em;
     cursor: pointer;
 }
+.caring img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
 .heading h1{
     text-align: center;
-    background-color: #d3d3d3;
+    background-color: #fff;
     padding: 5px;
     width: 90%;
     margin: 20px 0 0 82px;
+    font-size: 40px;
 }
 .heading p{
     text-align: center;
-    background-color: #d3d3d3;
+    background-color: #fff;
+    color: #8dc63f;
     padding: 5px;
     width: 85%;
-    font-size: 110%;
+    font-size: 20px!important;
     margin-left: 82px;
 }
 .director{
@@ -360,10 +440,11 @@
 }
 .director img{
     width: 8%;
-    margin: 10px 520px;
+    margin: 0px 650px;
     border-radius: 100px;
     padding: 10px;
     cursor: pointer;
+    
 }
 .director h3{
     text-align: center;
@@ -377,27 +458,41 @@
     font-family: sans-serif;
 }
 .director1{
-    padding: 5px 0 0 530px;
+    padding: 5px 0 0 650px;
+    display: flex;
+    
 }
-.director1 button{
+.director1 svg{
     width: 8%;
     height: 50px;
     margin: 0;
-    background-color: #90ee90;
+    background-color: #FFF;
+    border: 1px solid #fff;
+   
+    border-radius: 5px;
+    cursor: pointer;
+}
+.director1 svg:hover{
+    width: 8%;
+    height: 50px;
+    margin: 0;
+    background-color: #8dc63f;
     border: 1px solid #fff;
     border-radius: 5px;
     cursor: pointer;
 }
 .heading1 h1{
     text-align: center;
-    background-color: #d3d3d3;
+    background-color: #FFF;
     padding: 5px;
     width: 85%;
     margin: 50px 0 0 87px;
+    font-size: 40px;
+    font-weight: 600;
 }
 .working{
     display: flex;
-    margin: 20px;
+    margin: 60px;
     border: 2px solid #fff;
     border-radius: 5px;
 }
@@ -410,7 +505,7 @@
     border-radius: 20px;
 }
 .news1{
-    background-image: url(./72cf5a99-b443-48cd-9c5f-3b3ed8635891.jpg);
+    background-image: url(	./a8679ed7-2afc-4bc9-bb1a-710e61dc6852.jpg);
     width: 50%;
     height: 400px;
     margin: 20px 20px 0 20px;
