@@ -452,7 +452,7 @@ li:hover{
 }
 .director img{
     width: 8%;
-    margin: 0px 650px;
+    margin: 0px 650px 0px 540px;
     border-radius: 100px;
     padding: 10px;
     cursor: pointer;
@@ -470,7 +470,7 @@ li:hover{
     font-family: sans-serif;
 }
 .director1{
-    padding: 5px 0 0 650px;
+    padding: 5px 0 0 530px;
     display: flex;
     
 }
