@@ -10,8 +10,8 @@ body{
     display: flex;
     border: 1px solid #FFFFFF;
     align-items: center;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0%; */
 }
 .saylanilogo img{
     max-height: 70px;
@@ -62,17 +62,17 @@ li:hover{
 }
 .content h1{
     font-family: sans-serif;
-    font-size: 280%;
+    font-size: 330%;
 }
 .content h2{
     font-family: sans-serif;
-    font-size: 180%;
+    font-size: 200%;
 }
 .content p{
     font-family: sans-serif;
     line-height: 1.5em;
     color:#808080;
-    font-size: 110%;
+    font-size: 120%;
 }
 .content button{
     background-color: #fff;
@@ -205,6 +205,9 @@ li:hover{
     font-size: 120%;
     margin-left: 15px;
 }
+.food:hover{
+    transform: scale(1.1);
+}
 .it{
     background-image: url(./cbcbd0d4-16a9-49f9-a36b-292431441967.jpg);
     width: 60%;
@@ -233,6 +236,9 @@ li:hover{
     cursor:pointer;
     font-size: 120%;
     margin-left: 15px;
+}
+.it:hover{
+    transform: scale(1.1);
 }
 .needy{
     background-image:url(./db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
@@ -263,6 +269,9 @@ li:hover{
     font-size: 120%;
     margin-left: 15px;
 }
+.needy:hover{
+    transform: scale(1.1);
+}
 .combine{
     display: flex;
     justify-content: space-evenly;
@@ -276,8 +285,8 @@ li:hover{
     border-radius: 20px 0 0 0;
     border: 1px solid #fff;
 }
-.service h1{
-    background-color: #90ee90;
+.service h2{
+    background-color: #8dc63f!important;
     color: #fff;
     width: 40%;
     height: 180px;
@@ -286,13 +295,15 @@ li:hover{
     text-align: center;
     padding: 10px 0 0 0;
 }
-.project{
+.projects{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .hepatitis{
     display: flex;
     gap: 20px;
-    
+    align-items: center;
 }
 .treatment{
     line-height: 1em;
@@ -361,6 +372,7 @@ li:hover{
     width: 80%;
     background-color: #0d6db7;
     margin: auto;
+    margin-top: 30px;
     padding: 30px 65px;
 }
 .foods{
@@ -486,15 +498,19 @@ li:hover{
     background-color: #FFF;
     padding: 5px;
     width: 85%;
-    margin: 50px 0 0 87px;
+    margin: 10px 0 10px 87px;
     font-size: 40px;
     font-weight: 600;
 }
 .working{
     display: flex;
     margin: 60px;
+    margin-bottom: 30px;
     border: 2px solid #fff;
     border-radius: 5px;
+}
+.working iframe:hover{
+    transform: scale(1.2);
 }
 .news{
     display: flex;
@@ -552,8 +568,12 @@ li:hover{
     width: 10%;
     padding: 5px 15px;
 }
+.svg-3{
+    width: 20px;
+}
 .input{
-    background-color: #87ceeb;
+    background-color: #0d6db7;
+    background-image: url(./guide_back.3a5127e910c15a49f875.png);
     height: 230px;
     max-width: 85%;
     margin: 20px 0 0 87px;
@@ -567,12 +587,12 @@ li:hover{
 .input input{
     background: transparent;
     border: 1px solid #fff;
-    color: #fff;
+    color: white;
     width: 30%;
     padding:20px;
     cursor:pointer;
     font-size: 110%;
-    margin: 20px 0 0 250px;
+    margin: 20px 0 0 435px;
     border-radius: 10px;
 }
 .input button{
@@ -591,20 +611,25 @@ li:hover{
     justify-content: space-evenly;
     padding-left: 30px;
     margin: 70px 50px;
-    background-color: #808080;
-    border: 1px solid #808080;
+    background-color: #424242;
+    background-image: url(	https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    border: 1px solid #424242;
     border-radius: 10px;
     height: 400px;
     padding-top: 150px ;
 }
-.saylanilogo img{
+.saylanilogo-2{
+    margin-top: -60px;
+}
+.saylanilogo-2 img{
     max-height: 70px;
     max-width: 200%;
-
+    
 }
-.bottom ol li{
+.bottom ul li{
     font-size: 120%;
     line-height: 2em;
     padding-left: 50px;
     list-style-type: none;
+    color: white;
 }
