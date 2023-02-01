@@ -369,7 +369,7 @@ li:hover{
     background-image: url(	https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     background-color: #0d6db7;
     margin: auto;
     margin-top: 30px;
@@ -448,7 +448,7 @@ li:hover{
     margin: 40px 0 0 80px;
     background-color: #d3d3d3;
     height: 370px;
-    width: 87%;
+    width: 89%;
 }
 .director img{
     width: 8%;
@@ -575,8 +575,8 @@ li:hover{
     background-color: #0d6db7;
     background-image: url(./guide_back.3a5127e910c15a49f875.png);
     height: 230px;
-    max-width: 85%;
-    margin: 20px 0 0 87px;
+    max-width: 91%;
+    margin: 20px 0 0 63px;
     border-radius: 10px;
 }
 .input h1{
